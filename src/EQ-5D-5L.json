@@ -1,0 +1,53 @@
+{
+  "EQ-5D-5L": {
+    "Mobiliteit": [
+      "Ik heb geen problemen met lopen",
+      "Ik heb een beetje problemen met lopen",
+      "Ik heb matige problemen met lopen",
+      "Ik heb ernstige problemen met lopen",
+      "Ik ben niet in staat om te lopen"
+    ],
+    "Fit blijven": [
+      "Ik beweeg regelmatig",
+      "Ik heb een beetje problemen met bewegen",
+      "Ik heb matige problemen met bewegen",
+      "Ik heb ernstige problemen met bewegen",
+      "Ik ben niet in staat om te bewegen"
+    ],
+    "Energie": [
+      "Ik voel me meestal energiek",
+      "Ik voel me redelijk energiek",
+      "Ik voel me matig energiek",
+      "Ik voel me weinig energiek",
+      "Ik voel me helemaal niet energiek"
+    ],
+    "Zelfzorg": [
+      "Ik heb geen problemen met mijzelf wassen of aankleden",
+      "Ik heb een beetje problemen met mijzelf wassen of aankleden",
+      "Ik heb matige problemen met mijzelf wassen of aankleden",
+      "Ik heb ernstige problemen met mijzelf wassen of aankleden",
+      "Ik ben niet in staat mijzelf te wassen of aan te kleden"
+    ],
+    "Dagelijkse activiteiten": [
+      "Ik heb geen problemen met mijn dagelijkse activiteiten",
+      "Ik heb een beetje problemen met mijn dagelijkse activiteiten",
+      "Ik heb matige problemen met mijn dagelijkse activiteiten",
+      "Ik heb ernstige problemen met mijn dagelijkse activiteiten",
+      "Ik ben niet in staat mijn dagelijkse activiteiten uit te voeren"
+    ],
+    "Pijn/ongemak": [
+      "Ik heb geen pijn of ongemak",
+      "Ik heb een beetje pijn of ongemak",
+      "Ik heb matige pijn of ongemak",
+      "Ik heb ernstige pijn of ongemak",
+      "Ik heb extreme pijn of ongemak"
+    ],
+    "Angst/depressie": [
+      "Ik ben niet angstig of depressief",
+      "Ik ben een beetje angstig of depressief",
+      "Ik ben matig angstig of depressief",
+      "Ik ben erg angstig of depressief",
+      "Ik ben extreem angstig of depressief"
+    ]
+  }
+}

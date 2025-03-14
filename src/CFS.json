@@ -1,0 +1,42 @@
+{
+  "Clinical_Frailty_Scale": [
+      {
+          "category": "Zeer Fit",
+          "description": "Personen die robuust, actief, energiek en gemotiveerd zijn. Deze mensen sporten vaak regelmatig en behoren tot de fitste voor hun leeftijd."
+      },
+      {
+          "category": "Gezond",
+          "description": "Personen zonder ernstige ziekteverschijnselen, maar minder fit dan in categorie 1. Ze sporten of zijn af en toe zeer actief, bijvoorbeeld seizoensgebonden."
+      },
+      {
+          "category": "Goed Onder Controle",
+          "description": "Personen met goed beheersbare medische problemen, maar die niet regelmatig actief zijn buiten routinematig wandelen."
+      },
+      {
+          "category": "Levend Met Zeer Milde Kwetsbaarheid",
+          "description": "Voorheen 'Kwetsbaar' genoemd. Hoewel ze niet afhankelijk zijn van anderen voor dagelijkse hulp, beperken symptomen vaak hun activiteiten. Veelgehoorde klachten zijn 'vertraagd' zijn en vermoeidheid gedurende de dag."
+      },
+      {
+          "category": "Levend Met Milde Kwetsbaarheid",
+          "description": "Deze personen vertonen meestal meer duidelijke vertraging en hebben hulp nodig bij complexe instrumentele activiteiten van het dagelijks leven (IADL's), zoals financiën, vervoer, zwaar huishoudelijk werk en medicatiebeheer. Meestal leidt milde kwetsbaarheid geleidelijk tot beperkingen bij boodschappen doen, alleen buitenshuis lopen, maaltijdbereiding en schoonmaken."
+      },
+      {
+          "category": "Levend Met Matige Kwetsbaarheid",
+          "description": "Personen hebben hulp nodig bij alle activiteiten buitenshuis en huishoudelijke taken. Binnen hebben ze vaak problemen met trappen, hulp nodig bij het baden en mogelijk minimale ondersteuning bij het aankleden."
+      },
+      {
+          "category": "Levend Met Ernstige Kwetsbaarheid",
+          "description": "Volledig afhankelijk voor cognitieve en fysieke persoonlijke zorg. Ze lijken echter stabiel en lopen geen hoog risico om binnen zes maanden te overlijden."
+      },
+      {
+          "category": "Levend Met Zeer Ernstige Kwetsbaarheid",
+          "description": "Volledig afhankelijk voor persoonlijke zorg en naderen het levenseinde. Ze kunnen doorgaans niet herstellen, zelfs niet van kleine aandoeningen."
+      },
+      {
+          "category": "Terminaal Ziek",
+          "description": "Naderen het levenseinde. Deze categorie geldt voor mensen met een levensverwachting van minder dan zes maanden die niet anderszins ernstig kwetsbaar zijn. (Veel terminaal zieke mensen kunnen tot vlak voor hun overlijden nog bewegen of sporten.)"
+      }
+  ]
+}
+
+
