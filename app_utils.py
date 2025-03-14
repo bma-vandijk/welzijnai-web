@@ -61,7 +61,7 @@ def get_authenticator() -> stauth.Authenticate:
     Returns:
         stauth.Authenticate: Authentication object configured from the config file
     """
-    with open("creds.yaml") as file:
+    with open(os.path.join(CONFIG_DIR, "creds.yaml")) as file:
         config = yaml.load(file, Loader=SafeLoader)
 
     # Pre-hash all plain text passwords

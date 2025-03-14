@@ -169,7 +169,9 @@ dev*
 .DS_Store
 
 # streamlit
-.streamlit
+#.streamlit
+
+.streamlit/secrets.toml
 
 # sandbox for quick prototyping
 sandbox.ipynb
