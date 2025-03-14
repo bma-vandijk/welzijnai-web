@@ -35,7 +35,7 @@ STT_API: bool = True  # Whether to use API for Speech-to-Text
 TTS_API: bool = True  # Whether to use API for Text-to-Speech
 CONTINUOUS_MIC_RECORDING: bool = True  # Whether to use continuous microphone recording
 PILOT_MODE: bool = False  # Whether to use pilot mode
-TEXT_STREAM_DELAY: float = 0.05  # Delay between words when streaming text
+TEXT_STREAM_DELAY: float = 0.0005  # Delay between words when streaming text
 
 # Initialize authentication
 auth = get_authenticator()
@@ -577,7 +577,7 @@ if ss["authentication_status"]:
                 x="eq5d_cat",
                 y="scores",
                 x_label="EQ-5D categorie",
-                y_label="Score",
+                y_label="Score (lager is beter)",
                 color="eq5d_cat",
                 use_container_width=False,
                 width=800,
@@ -604,7 +604,7 @@ if ss["authentication_status"]:
             
             cfs_data_path = os.path.join(DATA_OUTPUT_DIR, 'cfs')
             
-            if len([f for f in os.listdir(cfs_data_path) if f != ".DS_Store"]) == 0:
+            if len([f for f in os.listdir(cfs_data_path) if not f.startswith(".")]) == 0:
                 st.write("Voer meer gesprekken om een geschiedenis van fragiliteit te krijgen.")
             
             else:

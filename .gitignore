@@ -183,8 +183,10 @@ output/audio_stt/*
 output/audio_tts/*
 !output/audio_tts/.gitkeep
 output/data/cfs/*
+!output/data/cfs/.gitkeep
 !output/data/cfs/score_df_2025-02-06T14:18:13.csv
 output/data/eq5d/*
+!output/data/eq5d/.gitkeep
 !output/data/eq5d/score_df_2025-02-06T14:18:11.csv
 
 # conversation output

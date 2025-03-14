@@ -460,7 +460,7 @@ def concat_session_data(sub_datafolder: str) -> pd.DataFrame:
         pd.DataFrame: Combined DataFrame of all session data
     """
     data_path = os.path.join(DATA_OUTPUT_DIR, sub_datafolder)
-    sessions = [f for f in os.listdir(data_path) if f != ".DS_Store"]
+    sessions = [f for f in os.listdir(data_path) if not f.startswith(".")]
 
     sessions_df = pd.read_csv(
         os.path.join(data_path, sessions[0]),
