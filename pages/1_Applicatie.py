@@ -192,7 +192,7 @@ if ss["authentication_status"]:
             
             # Mode selection
             text = r"$\textsf{\large Tekst}$"
-            speech = r"$\textsf{\large Spraak}$"
+            #speech = r"$\textsf{\large Spraak}$"
             
             if PILOT_MODE:
                 mode = st.radio(
