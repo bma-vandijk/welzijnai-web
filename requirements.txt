@@ -61,10 +61,10 @@ groq==0.11.0
 grpcio==1.70.0
 gruut==2.4.0
 gruut-ipa==0.13.0
-gruut_lang_de==2.0.1
-gruut_lang_en==2.0.1
-gruut_lang_es==2.0.1
-gruut_lang_fr==2.0.2
+gruut-lang-de==2.0.1
+gruut-lang-en==2.0.1
+gruut-lang-es==2.0.1
+gruut-lang-fr==2.0.2
 gTTS==2.5.4
 h11==0.14.0
 hangul-romanize==0.1.0
@@ -173,6 +173,7 @@ stack-data==0.6.3
 streamlit==1.40.2
 streamlit-audiorecorder==0.0.6
 streamlit-authenticator==0.4.1
+streamlit-autorefresh==1.0.1
 streamlit_mic_recorder==0.0.8
 SudachiDict-core==20250129
 SudachiPy==0.6.10

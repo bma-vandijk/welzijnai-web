@@ -192,7 +192,7 @@ if ss["authentication_status"]:
             
             # Mode selection
             text = r"$\textsf{\large Tekst}$"
-            #speech = r"$\textsf{\large Spraak}$"
+            speech = r"$\textsf{\large Spraak}$"
             
             if PILOT_MODE:
                 mode = st.radio(
@@ -202,7 +202,7 @@ if ss["authentication_status"]:
             else:
                 mode = st.radio(
                     r"$\textsf{\LARGE Besturing}$",
-                    options=[speech, text],
+                    options=[text], #text only mode
                     disabled=ss.disable_start_button
                 )
 
